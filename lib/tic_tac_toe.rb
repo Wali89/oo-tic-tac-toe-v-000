@@ -83,5 +83,5 @@ class TicTacToe
       board[winning_combo.first]
     end
   end
-  
+
 end
