@@ -46,4 +46,7 @@ class TicTacToe
     @board[position] = player
   end
 
+  def turn
+    input = gets
+    input_to_index(input)
 end
