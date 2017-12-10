@@ -29,11 +29,14 @@ class TicTacToe
   [0,4,8],
   [6,4,2]
   ]
-  
+
   def input_to_index(input)
     index = input.to_i - 1
   end
 
-  
-    
+  def valid_move?(board, position)
+    position.between?(0,8) && !position_taken?(board, position)
+  end
+
+
 end
