@@ -50,5 +50,5 @@ class TicTacToe
     input = gets
     input_to_index(input)
   end
-  
+
 end
